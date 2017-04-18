@@ -1,6 +1,6 @@
 ---
 - name: Deploying iTrust
-  hosts: iTrust
+  hosts: itrust
   become: yes
   
   roles:
