@@ -1,7 +1,7 @@
 ---
 - name: Cloning iTrust
   git:
-    repo: "https://{{git_id}}:{{git_token}}@github.ncsu.edu/engr-csc326-staff/iTrust-v23.git"
+    repo: "https://github.com/VivekBhat/itrust-v23.git.git"
     dest: "{{home_path}}/iTrust"
 
 - name: Copying Dockerfile template
